@@ -59,8 +59,9 @@ def preprocess_data(input_path, output_root):
 
 if __name__ == "__main__":
     # Sesuaikan dengan struktur folder di repository GitHub kamu
-    input_file = "namadataset_raw/BIKE DETAILS.csv"
+    input_file = "dataset_raw/BIKE DETAILS.csv"
     # Root folder untuk hasil preprocessing
     output_root = "preprocessing" 
 
     preprocess_data(input_file, output_root)
+
