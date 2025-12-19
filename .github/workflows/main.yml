@@ -22,7 +22,7 @@ jobs:
         pip install pandas numpy scikit-learn
 
     - name: Run Automate Script
-      run: python preprocessing/automate_hristianMahatmaBimaAlpindo.py
+      run: python preprocessing/automate_ChristianMahatmaBimaAlpindo.py
 
     - name: Commit and Push Changes
       run: |
